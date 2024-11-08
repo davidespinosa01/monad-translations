@@ -1,5 +1,5 @@
 
-(* Layering Monads *)
+(* Monad Translations Compose *)
 
 module type LANG =
   sig
