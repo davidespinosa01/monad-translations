@@ -1,5 +1,7 @@
 
-(* Representing Layered Monads 02 *)
+(* References:
+   Andrzej Filinski, Representing Layered Monads, POPL 1999
+   Andrzej Filinski, Monadic Reflection in Haskell, 2006 *)
 
 let returnK a k =
   k a
