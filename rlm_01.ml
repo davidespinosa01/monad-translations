@@ -1,5 +1,7 @@
 
-(* Representing Layered Monads *)
+(* References:
+   Andrzej Filinski, Representing Layered Monads, POPL 1999
+   Andrzej Filinski, Monadic Reflection in Haskell, 2006 *)
 
 type 'a writer = 'a * string
 let id a = a
